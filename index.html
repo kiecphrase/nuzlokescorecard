@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="imgs/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Tiro+Bangla:ital@1&display=swap" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="steez.css">
+
+    <title>Nuzloke Score Card</title>
+</head>
+<body>
+    <!-- VISIBLE -->
+    <div class="abs_holder">
+        
+        <a class="more-life" href="https://github.com/kiecphrase">more stuff</a>
+        <a class="more-life-alt" href="https://ashenfactory.github.io/nuzlocke-tracker/">nuzloke tracker</a>
+
+        <div id="flex_box" class="flexy">
+
+            <h1 id="title_text" class="title">Nuzloke Score Calculator</h1>
+
+            <div id="get" class="question box">
+                <form>
+                    <label class="normal-text" for="pc">Number of wild pokemon caught:</label>
+                    <input type="number" id="pc" name="pc"><br>
+                    <br>
+                    <br>
+                    <label class="normal-text" for="pm">Number of wild pokemon missed:</label>
+                    <input type="number" id="pm" name="pm"><br>
+                    <br>
+                    <br>
+                    <label class="normal-text" for="pf">Number of wild pokemon fainted:</label>
+                    <input type="number" id="pf" name="pf"><br>
+                    <br>
+                    <br>
+                    <label class="normal-text" for="tb">Number of trainers beaten:</label>
+                    <input type="number" id="tb" name="tb"><br>
+                    <br>
+                    <br>
+                    <label class="normal-text" for="gb">Number of gyms beaten:</label>
+                    <input type="number" id="gb" name="gb"><br>
+                    <br>
+                    <br>
+                    <label class="normal-text" for="lc">Number of legendaries caught:</label>
+                    <input type="number" id="lc" name="lc"><br>
+                    <br>
+                    <br>
+                    <label class="normal-text" for="tt">Total time played(in minutes):</label>
+                    <input type="number" id="tt" name="tt"><br>
+                </form>
+
+            </div>
+
+            <div id="show" class="score_show">
+                <h2>Your Score:</h2>
+                <h3 id="score_board">none</h3>
+            </div>
+
+            <button id="calc" class="butt">Get score</button>
+
+        </div>
+    </div>
+
+    <!-- U T I L I T Y -->
+    
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- JS -->
+    <script type="text/javascript" src="do.js"></script>
+</body>
+</html>
