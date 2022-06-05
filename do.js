@@ -17,8 +17,13 @@ function score_calc(){
     console.log(legend);
     console.log(time);
 
-    n = (((trainers * 75) + (gym * 150)) + (legend * 50) + (caught * 15));
-    d = (((time / 8) + (missed) + (faint * 2)) / 5);
+    n = (((trainers * 300) + (gym * 750)) + (legend * 550) + (caught * 150));
+    if(time < 45 && gym < 1){
+        d = 1000
+    }
+    else {
+        d = (((time / 8) + (missed) + (faint * 2)) / 5);
+    }
 
     console.log("numerator: " + n);
     console.log("denominator: " + d);
