@@ -18,7 +18,7 @@ function score_calc(){
     console.log(time);
 
     n = (((trainers * 300) + (gym * 750)) + (legend * 550) + (caught * 150));
-    if(time < 45 && gym < 1){
+    if(time < 45 || gym < 1){
         d = 1000
     }
     else {
