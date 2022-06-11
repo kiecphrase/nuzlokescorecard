@@ -97,9 +97,6 @@ label {
 }
 
 .more-life-alt{
-    position: fixed;
-    left: 3rem;
-    top: 1rem;
     z-index: 10;
     text-decoration: none;
     color: rgba(250, 98, 237, 0.43);
@@ -111,4 +108,10 @@ label {
     color: rgba(250, 98, 237, 0.83);
     background-color: rgba(151, 156, 105, 0.1);
     border-radius: 5px;
+}
+
+.big-life{
+    position: fixed;
+    left: 3rem;
+    top: 1rem;
 }
